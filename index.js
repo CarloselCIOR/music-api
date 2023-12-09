@@ -5,6 +5,7 @@ require('./utils/mongoConnection');
 
 const usersRouter = require('./routers/users.router');
 const songsRouter = require('./routers/songs.router');
+const playlistRouter = require('./routers/playlist.router');
 
 const app = express();
 const port = 3003;
@@ -26,6 +27,7 @@ app.use(express.json({limit: '50mb'}));
 
 app.use('/users', usersRouter);
 app.use('/songs', songsRouter);
+app.use('/playlists', playlistRouter);
 
 app.listen(port, () => {
     console.log("Servidor iniciado en http://localhost:"+port);
