@@ -40,8 +40,8 @@ exports.getSongById = async (req, res) => {
 // Crear cancion
 exports.newSong = async (req, res) => {
     try {
-        const { titulo, artista, album, genero, duracion, año, url } = req.body;
-        const newSong = new Song({ titulo, artista, album, genero, duracion, año, url });
+        const { titulo, artista, album, genero, duracion, anho, url } = req.body;
+        const newSong = new Song({ titulo, artista, album, genero, duracion, anho, url });
         await newSong.save();
 
         return res.status(200).json({

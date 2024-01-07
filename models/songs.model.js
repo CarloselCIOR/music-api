@@ -6,7 +6,7 @@ let songSchema = new mongoose.Schema({
     album: {type: String},
     genero: {type: String},
     duracion: {type: String},
-    año: {type: Number},
+    anho: {type: Number},
     url: {type: String},
 });
 
