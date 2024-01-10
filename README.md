@@ -5,15 +5,18 @@
 Usuarios:
     https://music-api-one-kappa.vercel.app/users
 
+  ```bash
   {
     "userName": "carloselcior",
     "email" : "carloselcior@gmail.com",
     "password" : "carloselcior"
   }
+  ```
 
 Canciones:
     https://music-api-one-kappa.vercel.app/songs
   
+  ```bash
   {
     "titulo": "Cabras",
     "artista": "Little Jesus",
@@ -23,16 +26,19 @@ Canciones:
     "año": 2023,
     "url": "https://www.youtube.com/watch?v=VtiEkP45mG4"
   }
+  ```
 
 Playlist:
     https://music-api-one-kappa.vercel.app/playlists
 
+  ```bash
   {
     "usuario_email": "admin@gmail.com",
     "nombre": "Playlist de Carlos 2",
     "descripcion": "Las canciones de Carlos",
     "canciones": "Canciones"
   }
+  ```
 
 ## Clonar el Repositorio
 
